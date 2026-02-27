@@ -1,6 +1,6 @@
 # 📈 Mini Exchange Simulator (Order Matching Engine)
 
-A high-performance **Real-Time Order Matching Engine** and **Exchange Simulator** built in Modern C++. 
+A high-performance **Real-Time Order Matching Engine** and **Exchange Simulator** built in Modern C++.
 
 This project simulates the core mechanics of a financial exchange, accepting Limit and Market orders, maintaining an order book, and executing trades with ultra-low latency. It is designed to act as a backend system capable of sustaining high throughput for simulated algorithmic trading.
 
@@ -32,12 +32,14 @@ This project simulates the core mechanics of a financial exchange, accepting Lim
 ### Building the Project
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/karthiknadamritham/Mini-Exchange-Simulator.git
    cd Mini-Exchange-Simulator
    ```
 
 2. Generate the build files using CMake:
+
    ```bash
    cmake -S . -B build
    ```
@@ -52,12 +54,15 @@ This project simulates the core mechanics of a financial exchange, accepting Lim
 Once compiled, you can run the simulator to run the benchmark:
 
 **On Windows:**
+
 ```bash
 .\build\Release\Engine.exe
 ```
-*(Or if not using multip-configuration generators, simply `.\build\Engine.exe`)*
+
+_(Or if not using multip-configuration generators, simply `.\build\Engine.exe`)_
 
 **On Linux/macOS:**
+
 ```bash
 ./build/Engine
 ```
@@ -79,7 +84,5 @@ Average Latency per order: <Z> microseconds
 ```
 
 ## 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
 
-## 📝 License
-This project is open-source and available under the [MIT License](LICENSE).
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
