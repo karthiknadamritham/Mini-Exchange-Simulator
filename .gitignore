@@ -1,0 +1,30 @@
+# Build and compilation directories
+build/
+bin/
+obj/
+*.exe
+*.o
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# IDE and Editor folders
+.vscode/
+.idea/
+*.suo
+*.sln
+*.user
+
+# Logs and debug files
+*.log
+*.err
+build.log
+error.log
+
+# Agent artifact files
+*.resolved
+*.md.resolved
+implementation_plan.md.resolved
+walkthrough.md.resolved
